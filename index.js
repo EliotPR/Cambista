@@ -18,3 +18,24 @@ function convertir () {
     }
 }
 
+
+const agente = ['001', '002', '003', '004']
+agente.push ('005','006', '007')
+// console.log(agente)
+agente.shift ()
+agente.unshift ('K')
+// console.log(agente)
+
+
+
+
+function Agentes (codigo, compañero) { 
+    this.codigo = codigo
+    this.compañero = compañero
+}
+
+const agente1 = new Agentes ('F', 'J')
+agente.push (agente1)
+console.log(agente)
+console.log ('agente: '+ agente[7].codigo +
+' compañero: ' + agente[7].compañero)
